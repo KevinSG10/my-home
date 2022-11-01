@@ -1,0 +1,45 @@
+
+.div__contain--home {
+width: 100%;
+height: 100%;
+background-image: url("../assets/image-home.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: cover;
+
+display: grid;
+justify-items: center;
+
+}
+
+
+.header__nav--opcion {
+    width: 100%;
+    height: 100px;
+    display: flex;
+   flex-direction: row;
+   justify-content: right;
+   align-items: flex-end;
+   padding-right: 18%;
+}
+
+.header__nav--opcion ul {
+    display: flex;
+   
+}
+
+.header__nav--opcion ul li{
+
+    
+    padding-left: 20px;  
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+.header__nav--opcion ul li a{
+    text-decoration: none;
+    color: black;
+}
+
